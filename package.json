@@ -1,0 +1,26 @@
+{
+  "name": "peerless_turquoise_website",
+  "version": "1.0.0",
+  "description": "\"A website for Peerless Turquoise Home Cleaning Service\"",
+  "main": "index.php",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webdevmike101/peerless-turquoise.git"
+  },
+  "author": "Michael Guillory",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webdevmike101/peerless-turquoise/issues"
+  },
+  "homepage": "https://github.com/webdevmike101/peerless-turquoise#readme"
+}
