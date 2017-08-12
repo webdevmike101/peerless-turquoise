@@ -1,0 +1,90 @@
+@import 'colors.scss';
+
+body{
+	
+	font-family: Arial;
+}
+
+#wrapper{
+	margin: 0 auto;
+	width: 1000px;
+}
+
+#main-header{
+	display:grid;
+	grid-template-columns: 60% 40%
+}
+
+.logo{
+	color: $logo-blue;
+	text-shadow: 1.2px 1.2px #999;	
+
+	span{
+		color: $logo-turquoise;
+	};
+
+	h1{
+		font-size: 48px;
+		margin: 0
+	};
+
+	h3{
+		font-size: 34px;
+		margin: 0
+	}; 
+
+	hr{
+		border: 1.5px solid $logo-blue;
+		box-shadow: 1.2px 1.2px #999;
+		width: 433px;
+		margin-left: 2px;
+		margin-top: -6px;
+		margin-bottom: 0
+	}
+}
+
+#home-content{
+
+}
+
+#under-construction{
+	width: 650px;
+	margin: 0 auto;
+	margin-top: 250px;
+	font-size: 36px;
+	text-align: center;
+
+	span{
+		color: $logo-blue
+	}
+}
+
+.text-left {
+  text-align: left; }
+
+.text-right {
+  text-align: right; }
+
+.text-center {
+  text-align: center; }
+
+.float-left {
+  float: left; }
+
+.float-right {
+  float: right; }
+
+.red {
+  outline: red solid 1px; }
+
+.green {
+  outline: green solid 1px; }
+
+.blue {
+  outline: blue solid 1px; }
+
+.yellow {
+  outline: yellow solid 1px; }
+
+.black {
+  outline: black solid 1px; }
